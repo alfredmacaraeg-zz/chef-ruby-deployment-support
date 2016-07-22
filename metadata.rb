@@ -1,0 +1,16 @@
+name 'ruby-deployment-support'
+maintainer       'Gannett'
+maintainer_email 'paas-optimization@gannett.com'
+license          'All rights reserved'
+description 'Installs/Configures chef-ruby-deployment-support'
+long_description 'Installs/Configures config files to a node'
+version '0.1.0'
+
+depends 'gdp-base-linux', '>= 2.1.0'
+depends 'ruby-deployment', '>= 2.2.0'
+depends 's3cmd', '>= 0.1.3'
+depends 'yum-gd', '= 0.8.2'
+supports 'centos', '>= 7.1.0'
+
+source_url 'https://github.com/GannettDigital/chef-ruby-deployment-support'
+issues_url 'https://github.com/GannettDigital/chef-ruby-deployment-support/issues'
